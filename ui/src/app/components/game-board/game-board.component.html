@@ -1,0 +1,21 @@
+<p>
+  game-board works!
+</p>
+<p>
+  Hello {{userName}}
+</p>
+
+<ul>
+  <li *ngFor="let user of users$ | async">
+    <label [ngClass]="{'active': user.type === 1, 'inactive': user.type === 2}">{{user.name}}</label>
+  </li>
+</ul>
+
+<!-- <div class="board">
+  <label>{{question.label}}</label>
+  <ul>
+    <li *ngFor="let o of question.options">
+      {{o.label}}
+    </li>
+  </ul>
+</div> -->

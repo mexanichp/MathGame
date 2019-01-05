@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side of math game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mexanichp"
+  },
+  "author": "Mykhailo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+<div>
+<input #newUser placeholder="Enter your username" (keyup.enter)="joinGame(newUser.value)" >
+</div>
+<div>
+<button (click)="joinGame(newUser.value)">Join the game</button>
+</div>
