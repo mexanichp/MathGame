@@ -3,7 +3,8 @@ const actions = Object.freeze({
   DISCONNECT: 'disconnect',
   REFRESH: 'refresh',
   NEW_ROUND: 'new round',
-  NEW_USER: 'new user joined'
+  NEW_USER: 'new user joined',
+  ANSWER: 'answer'
 });
 
 const userType = Object.freeze({

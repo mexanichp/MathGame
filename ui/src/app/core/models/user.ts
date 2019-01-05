@@ -1,6 +1,7 @@
 import { UserType } from './user-type.enum';
 
 export class User {
+  public id: string;
   public score: number;
   public type: UserType
   public name: string;

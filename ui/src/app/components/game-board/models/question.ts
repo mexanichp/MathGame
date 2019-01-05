@@ -1,6 +1,6 @@
 import { Option } from './option';
 
 export class Question {
-  public label: string;
-  public options: Option[];
+  public question: string;
+  public proposedAnswer: string;
 }

@@ -3,5 +3,6 @@ export enum Actions {
   DISCONNECT = 'dicsonnect',
   REFRESH = 'refresh',
   NEW_ROUND = 'new round',
-  NEW_USER = 'new user joined'
+  NEW_USER = 'new user joined',
+  ANSWER = "answer"
 }

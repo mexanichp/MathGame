@@ -13,12 +13,11 @@ import { Actions } from '../core/models/actions.enum';
 })
 export class SocketService {
 
-  private socket;
+  public socket;
 
   constructor() {
     console.log('socket service is injected');
   }
-
 
   public initSocket(): void {
     this.socket = socketIo(environment.backendUrl);
