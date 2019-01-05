@@ -2,12 +2,9 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { UsersService } from 'src/app/services/users.service';
 import { SocketService } from 'src/app/services/socket.service';
-import { Message } from 'src/app/core/models/message';
-import { Observable, from } from 'rxjs';
+import { Observable } from 'rxjs';
 import { User } from 'src/app/core/models/user';
-import { UserType } from 'src/app/core/models/user-type.enum';
 import { Question } from './models/question';
-import { reduce } from 'rxjs/operators';
 import { of } from 'rxjs'
 import { Actions } from 'src/app/core/models/actions.enum';
 

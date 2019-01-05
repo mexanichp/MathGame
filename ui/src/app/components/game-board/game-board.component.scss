@@ -5,3 +5,21 @@
 .inactive {
   color: grey;
 }
+
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .question {
+    justify-content: flex-start;
+    flex: 1;
+  }
+  .users {
+    justify-content: flex-end;
+    flex: .35;
+    li {
+      text-decoration: none;
+      list-style: none;
+    }
+  }
+}
